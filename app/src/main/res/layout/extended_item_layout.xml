@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:gravity="center"
+        android:background="#ffcdcbcb"
+        android:id="@+id/back"
+        android:tag="back" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_back_button"
+            android:text="cmon push me!"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:id="@+id/front"
+        android:tag="front">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="#000000"
+            android:id="@+id/item_title"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="#000000"
+            android:id="@+id/item_text"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_front_button"
+            android:text="push me first!"/>
+
+    </LinearLayout>
+
+</FrameLayout>
